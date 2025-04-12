@@ -1,0 +1,49 @@
+header{
+    padding: 20px;
+    background: #332c7088;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+body {
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, #332c7088, #332c7088)
+}
+h1 {
+    font-family:  'lucida handwriting' cursive;
+    color:azure
+    font-size: 50px
+}
+h2{font-family:  'lucida handwriting' cursive;
+    color:azure
+    font-size: 50px
+}
+
+p,ul {
+    font-family: "courier news", serif;
+    font-size: 20px;
+}
+
+.card {
+    background: rgab( 225, 225, 0.2);
+    padding: 20px; 
+    border-radius: 15px;
+    width: 80%;
+    margin:40px auto
+}
+.creature-card{
+    background: rgba(225,225, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.creature-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+.creatures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
